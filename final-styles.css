@@ -9,7 +9,7 @@ h2, h3, h4, h5, h6{
     color: #735E53;
 }
 
-h3 .background {
+h3.background {
     background-color: #BBD979;
 }
 li{
@@ -26,29 +26,11 @@ p{
     border: solid black 2px;
     padding: 10px;
 }
-.color{
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-}
-.color-1{
-    background-color: #F58641;
-}
-.color-2{
-    background-color: #BBD979;
-}
-.color-3{
-    background-color: #BFA65D;
-}
-.color-4{
-    background-color: #BFB7B0;
-}
-.color-5{
-    background-color: #735E53;
-}
 img{
-    width: 450px;
-    margin: 15px;
+    display: block;
+    width: 1200px;
+    height: auto;
+    margin: auto;
 }
 .caption{
     font-family: 'Montserrat', sans-serif;
