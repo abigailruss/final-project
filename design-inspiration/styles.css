@@ -1,0 +1,38 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+h1{
+    font-family: 'Playfair Display', serif;
+}
+h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    display: inline;
+    line-height: 0;
+    padding: 0;
+}
+#color-palette{
+    background-color: white;
+    border: solid black 2px;
+    padding: 10px;
+}
+.color{
+    height: 150;
+    width: 150;
+    display: inline-block;
+}
+.color .color-1{
+    background-color: #F58641
+}
+.color .color-2{
+    background-color: #BBD979
+}
+.color .color-3{
+    background-color: #BFB7B0
+}
+.color .color-4{
+    background-color: #BBD979
+}
+.color .color-5{
+    background-color: #735E53
+}
