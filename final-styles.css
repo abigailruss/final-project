@@ -33,6 +33,9 @@ img{
     height: auto;
     margin: auto;
 }
+.photocaption{
+
+}
 .caption{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -43,6 +46,7 @@ img{
 
 body {
   margin: auto;
+  margin-top: 5px;
 }
 footer {
   padding: 20px 40px 20px 40px;
@@ -50,135 +54,4 @@ footer {
   background-color: #cdaea6;
   color: white;
   font-family: "Montserrat", sans-serif;
-}
-.flexbox-container {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-.header {
-  background-color: #F58641;
-  display: flex;
-  flex-direction: column;
-}
-.header-row1 {
-  display: flex;
-  align-items: stretch;
-}
-.header-row1 img {
-  width: 120px;
-  flex-grow: 0;
-}
-
-.header .wider{
-  flex-grow: 1;
-}
-.header-row1 p {
-  text-align: center;
-}
-.name {
-  font-family: 'Playfair Display', serif;
-  color: white;
-  text-align: center;
-  font-size: 32px;
-  /* min(6vw, 100px); */
-  margin: 10px 0 0 0;
-}
-
-.header-content {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-@media only screen and (max-width: 600px) {
-  .logo {
-    height: min(15vw, 120px);
-    object-fit: contain;
-  }
-  .headers span {
-    width: min(10vw,120px);
-  }
-
-  .link-row .narrow {
-    flex-grow: 0;
-    display: flex;
-    justify-content: flex-end;
-    gap: 2vw;
-    align-items: center;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .logo {
-    height: min(15vw, 120px);
-    object-fit: contain;
-    margin: 10px;
-  }
-  .header-row1 span {
-    width: min(10vw, 120px);
-  }
-  .link-row .narrow {
-    flex-grow: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap:2vw;
-  }
-}
-
-.link-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  border-top: thin white solid;
-  padding: 10px 10px 10px 0;
-}
-.link-row ul {
-  font-size: max(1.5vw, 14px);
-  margin: 0;
-  padding: 0;
-}
-.link-row li {
-  display: inline;
-  line-height: 0;
-  padding: 0;
-}
-
-.link-row .wider {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-
-.link-row a {
-  text-decoration: none;
-}
-
-.link-row a:hover {
-  color: #cccccc;
-  background-color: #7e7e7e;
-}
-.link-row a:active,
-.link-row a:visited,
-.link-row a:link {
-  color: white;
-}
-.fa-twitter {
-  color: #1da1f2;
-}
-.fa-twitter:hover {
-  color: white;
-}
-.fa-linkedin {
-  color: #0077b5;
-}
-.fa-linkedin:hover {
-  color: white;
-}
-.fa-envelope {
-  color: white;
-}
-.fa-envelope:hover {
-  color: black;
 }
