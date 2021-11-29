@@ -7,6 +7,9 @@ h1{
 h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
     color: #735E53;
+}
+
+h3 .background {
     background-color: #BBD979;
 }
 li{
@@ -51,7 +54,4 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: italic;
-}
-body{
-    background-color: yellow;
 }
