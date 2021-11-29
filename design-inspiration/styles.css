@@ -47,7 +47,7 @@ img{
     width: 450px;
     margin: 15px;
 }
-figcaption{
+.caption{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: italic;
