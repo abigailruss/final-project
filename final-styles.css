@@ -94,7 +94,7 @@ body {
 .addresses, .hours{
     font-family: 'Montserrat', sans-serif;
     padding: 0 10px;
-    flex: 1 50%;
+    flex: 1 40%;
 }
 
 
