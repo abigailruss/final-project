@@ -16,6 +16,7 @@ h3.background {
 }
 h3, h5{
     margin: 10px 0 5px 0;
+    /* padding */
 }
 li{
     font-family: 'Montserrat', sans-serif;
@@ -28,14 +29,11 @@ p a:hover, p a:active, p a:link, p a:visited{
     color: #000000;
 }
 
-/* #color-palette{
-    background-color: white;
-    border: solid black 2px;
-    padding: 10px;
-} */
+
+
 img{
     display: block;
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: auto;
 }
@@ -43,6 +41,11 @@ img{
     width: 900px;
     display: block;
     height: auto;
+}
+.package{
+    float: right;
+    width: 40%;
+    margin-left: 10px;
 }
 
 .caption{
@@ -90,6 +93,12 @@ body {
     row-gap: 15px;
     padding-bottom: 15px;
 }
+.flexcontainer.locations .addresses p, .flexcontainer.locations .hours p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
 
 .addresses, .hours{
     font-family: 'Montserrat', sans-serif;
