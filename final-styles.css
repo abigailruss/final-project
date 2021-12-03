@@ -24,12 +24,15 @@ li{
 p{
     font-family: 'Montserrat', sans-serif;
 }
+p a:hover, p a:active, p a:link, p a:visited{
+    color: #000000;
+}
 
-#color-palette{
+/* #color-palette{
     background-color: white;
     border: solid black 2px;
     padding: 10px;
-}
+} */
 img{
     display: block;
     width: 60%;
@@ -76,7 +79,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     flex: 2 100%;
 }
-.restaurant a:hover, a:active, a:link, a:visited{
+.restaurant a:hover, .restaurant a:active, .restaurant a:link, .restaurant a:visited{
     color: #FFFFFF;
     font-weight: bold;
     font-size: medium;
@@ -84,11 +87,13 @@ body {
 .flexcontainer{
     display: flex;
     flex-flow: row wrap;
+    row-gap: 15px;
+    padding-bottom: 15px;
 }
 
 .addresses, .hours{
     font-family: 'Montserrat', sans-serif;
-    padding: 0, 10px;
+    padding: 0 10px;
     flex: 1 50%;
 }
 
@@ -99,6 +104,9 @@ footer {
     background-color: #BBD979;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+footer a:hover, footer a:active, footer a:link, footer a:visited{
+    color: #FFFFFF;
 }
 
 
@@ -111,4 +119,3 @@ footer {
         width: 100%;
     }
   }
-
