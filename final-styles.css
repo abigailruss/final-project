@@ -81,8 +81,14 @@ body {
 }
 .flexcontainer{
     display: flex;
-    width:
+    justify-content: space-between;
+
 }
+.addresses, .hours{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0, 10px;
+}
+
 footer {
   padding: 20px 40px 20px 40px;
   text-align: right;
