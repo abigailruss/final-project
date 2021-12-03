@@ -1,23 +1,26 @@
 /* font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif; */
+*/
+/* font-family: 'Playfair Display', serif; */
 h1{
     font-family: 'Playfair Display', serif;
     color: #F58641;
 
 }
-h2, h3, h4, h5, h6{
+h2, h3, h5, h6{
     font-family: 'Montserrat', sans-serif;
     color: #735E53;
 }
 
 h3.background {
     background-color: #BBD979;
+    padding: 5px;
+}
+h3, h5{
+    margin: 10px 0 5px 0;
 }
 li{
-    display: inline;
-    line-height: 0;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -29,24 +32,56 @@ p{
 }
 img{
     display: block;
-    width: 1200px;
+    width: 60%;
     height: auto;
     margin: auto;
 }
-.photocaption{
-
+.lead-photo{
+    width: 900px;
+    display: block;
+    height: auto;
 }
+
 .caption{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: italic;
     color: #7e7e7e;
 }
-
+.chart, .graph{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 
 body {
   margin: auto;
   margin-top: 5px;
+  font-size: 16px;
+  width: 900px;
+  line-height: 1.25;
+}
+.headline{
+    display: block;
+}
+.content-wrapper{
+    margin: 0 auto;
+    width: 90%;
+}
+.restaurant{
+    background-color: #F58641;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.restaurant a:hover, a:active, a:link, a:visited{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: medium;
+}
+.flexcontainer{
+    display: flex;
+    width:
 }
 footer {
   padding: 20px 40px 20px 40px;
