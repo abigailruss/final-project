@@ -61,7 +61,6 @@ body {
   font-size: 16px;
   width: 900px;
   line-height: 1.25;
-  background-color: 
 }
 
 .headline{
@@ -75,6 +74,7 @@ body {
     background-color: #F58641;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    flex: 2 100%;
 }
 .restaurant a:hover, a:active, a:link, a:visited{
     color: #FFFFFF;
@@ -83,20 +83,22 @@ body {
 }
 .flexcontainer{
     display: flex;
-    justify-content: space-between;
-
+    flex-flow: row wrap;
 }
+
 .addresses, .hours{
     font-family: 'Montserrat', sans-serif;
     padding: 0, 10px;
+    flex: 1 50%;
 }
 
+
 footer {
-  padding: 20px 40px 20px 40px;
-  text-align: right;
-  background-color: #cdaea6;
-  color: white;
-  font-family: "Montserrat", sans-serif;
+    padding: 20px 40px 20px 40px;
+    text-align: right;
+    background-color: #BBD979;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -109,10 +111,4 @@ footer {
         width: 100%;
     }
   }
-  footer {
-    padding: 20px 40px 20px 40px;
-    text-align: right;
-    background-color: #BBD979;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-  }
+
