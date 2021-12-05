@@ -22,6 +22,11 @@ h3, h5{
     width: 90%;
     margin: auto;
 }
+hr {
+    height: 5px;
+    background-color: #F58641;
+    border: none;
+}
 .directions{
     font-family: 'Montserrat', sans-serif;
     padding-left: 7px;
