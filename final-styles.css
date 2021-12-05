@@ -12,11 +12,19 @@ h2, h3, h5 {
 
 h3.background {
     background-color: #BBD979;
-    padding: 5px;
+    margin-top: 30px;
+    padding: 10px;
 }
 h3, h5{
     margin: 10px 0 5px 0;
-    /* padding */
+}
+.author{
+    width: 90%;
+    margin: auto;
+}
+.directions{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 7px;
 }
 
 li{
@@ -79,7 +87,7 @@ body {
 }
 .restaurant{
     background-color: #F58641;
-    padding: 5px;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     flex: 2 100%;
 }
