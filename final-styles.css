@@ -22,6 +22,10 @@ h3, h5{
     width: 90%;
     margin: auto;
 }
+h5.date{
+    padding-bottom: 10px;
+    color: #F58641;
+}
 hr {
     height: 5px;
     background-color: #F58641;
