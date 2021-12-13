@@ -4,6 +4,9 @@
 h1{
     font-family: 'Playfair Display', serif;
     color: #F58641;
+    font-size: xxx-large;
+    margin: auto;
+    text-align: center;
 }
 h2, h3, h5 {
     font-family: 'Montserrat', sans-serif;
@@ -18,10 +21,7 @@ h3.background {
 h3, h5{
     margin: 10px 0 5px 0;
 }
-.author{
-    width: 90%;
-    margin: auto;
-}
+
 h5.date{
     padding-bottom: 10px;
     color: #F58641;
@@ -71,6 +71,8 @@ img{
     font-size: 15px;
     font-style: italic;
     color: #7e7e7e;
+    width: 90%;
+    margin: auto;
 }
 .chart, .graph{
     display: block;
